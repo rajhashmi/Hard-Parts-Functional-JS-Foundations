@@ -39,3 +39,18 @@ const newReult = copyArrayManipulate2(array2,multiples)
 // A function that take another function as the argument or return a another function as the result that function is known as HigherOrder funciton and the function is the argument that is callback function
 
 
+
+//  Arow functions
+
+const multipleBy2 = (input) => {return input*2};
+
+// so where the funciton is single explression to evaluate and then return, lets us remove the {} and return keyword
+
+const multipleBy3 = (input) => input*3;
+const outPut = multipleBy3(3) // 6
+
+
+// We can even remove the parenthesis if there's only 1 parameter (expected input)
+
+const multipleBy4 = input => input*4;
+
