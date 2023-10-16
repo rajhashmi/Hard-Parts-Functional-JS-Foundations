@@ -54,3 +54,17 @@ const outPut = multipleBy3(3) // 6
 
 const multipleBy4 = input => input*4;
 
+
+
+
+// ========================================
+
+// methods 
+
+let arr = [1,2,3,4,5];
+
+let sum = arr.reduce((acum,value)=>{
+    acum += value
+    return acum
+},0)
+
